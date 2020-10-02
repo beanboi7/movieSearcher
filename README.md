@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Description of the App
+Build using TMDB API with React in the frontend, one can search movies using this basic App.
+The API provides all relevant movies with the query passed in.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
