@@ -18,6 +18,7 @@ export default function SearchComponent(){
             const data = await rawData.json();
             setMovies(data.results);
             
+            
         }
         catch(err){
             console.error(err);
@@ -41,9 +42,7 @@ export default function SearchComponent(){
 
             <div className = 'card-list'>
                 {movies.filter(movie => movie.poster_path).map(
-                    movie => (
-                        <MovieCard movie = {movie} />
-                    )
+                    movie => (<MovieCard movie = {movie} />)
                 )}
             </div>
         </>
